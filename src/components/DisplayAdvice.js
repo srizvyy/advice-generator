@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 function DisplayAdvice(advice) {
-    
+
   return (
     <div id='box'>
         <h1 className='advice'>{advice.advice[1].advice}</h1>
-        <button>New Advice</button>
+        <button className='button' onClick={() => window.location.reload(false)}><span>New Advice</span></button>
     </div>
   )
 }
