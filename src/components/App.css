@@ -1,0 +1,23 @@
+html {
+  background-image: url("https://wallpaperaccess.com/full/2329346.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+.advice {
+  color: white;
+}
+
+#box {
+  padding-top: 40px;
+  /* width: 400px; */
+  /* height: 100px; */
+  /* border: 10px solid; */
+  margin: 250px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}

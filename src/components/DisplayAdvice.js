@@ -1,11 +1,12 @@
 import React from 'react';
 
 function DisplayAdvice(advice) {
-    console.log(advice)
+    
   return (
-  <div>
-      <h1>{advice.advice[1].advice}</h1>
-  </div>
+    <div id='box'>
+        <h1 className='advice'>{advice.advice[1].advice}</h1>
+        <button>New Advice</button>
+    </div>
   )
 }
 
